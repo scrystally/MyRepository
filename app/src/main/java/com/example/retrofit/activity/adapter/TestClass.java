@@ -7,6 +7,16 @@ public class TestClass {
     private int a;
     private int b;
 
+    public int getC() {
+        return c;
+    }
+
+    public void setC(int c) {
+        this.c = c;
+    }
+
+    private int c;
+
     public int getB() {
         return b;
     }
